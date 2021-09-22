@@ -5,6 +5,21 @@ body {
   font-size: 17px;
 }
 
+p {
+  font-size: 12px;
+}
+
+h1 {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 0;
+}
+/*  */
 #showcase {
   background-image: url("../img/backgrounds/h_img.jpg");
   height: 100vh;
@@ -17,6 +32,7 @@ body {
   text-align: center;
   color: white;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 #showcase h1 {
@@ -39,11 +55,16 @@ body {
   background-size: cover;
   color: white;
 }
-
+/*  */
 #what-we-do {
   text-align: center;
+  padding: 5% 0;
 }
 
+#what-we-do .container {
+  max-width: 85%;
+}
+/*  */
 .container {
   max-width: 75%;
 }
@@ -53,4 +74,31 @@ body {
   background-position: center;
   background-size: cover;
   color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.form-group input,
+textarea {
+  background: transparent;
+  color: white;
+}
+
+#contact-us p {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding: 10px 10px;
+  text-align: left;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+#footer {
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
 }
